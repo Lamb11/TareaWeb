@@ -62,6 +62,7 @@ public class MainActivity extends Activity {
                         listView.setAdapter(mNameListAdapter);
                         btnLoad.setBackgroundColor(getResources().getColor(R.color.green));
 
+                     
                     } catch (JsonSyntaxException e) {
                         e.printStackTrace();
                         //invalid json response from the server
